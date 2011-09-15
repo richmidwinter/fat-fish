@@ -1,8 +1,19 @@
 Fat Fish
 ========
 
-A Java library for generating descriptive error messages:
+A Java library for generating descriptive error messages, e.g.:
 
-8 fat fish fly slowly
+		8 fat fish fly slowly
+		
+A simple, memorable String which won't scare your users away.
 
+To get a Fat Fish error String just call:
 
+		new FatFish().get();
+		
+Or, if you want to generate a repeatable String from an error code:
+
+		Long errorCode = 999L;
+		new FatFish().get(errorCode);
+		
+It's as simple as that. Fat Fish also includes Locale support.
