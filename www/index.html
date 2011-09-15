@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Wansdyke House</title>
+        <style>
+            * {
+                margin: 0px;
+                padding: 0px;
+            }
+            body {
+                background: #eee;
+                color: #666;
+                font-family: 'HelveticaNeue-Light', 'Helvetica Neue', 'Helvetica Neue Light', 'Arial', sans-serif;
+                font-size: 0.8em;
+            }
+            a {
+                color: #900;
+                text-decoration: none;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+            p {
+                margin: 5px 0px;
+            }
+            footer {
+                position: fixed;
+                bottom: 0px;
+                width: 100%;
+                text-align: center;
+                padding: 2px;
+            }
+            #card {
+                width: 380px;
+                margin: 0 auto;
+                margin-top: 15%;
+                border: 1px solid #ccc;
+                padding: 10px;
+                position: relative;
+                background: white;
+                -webkit-transform: scale(0.98);
+                -webkit-transition-timing-function: ease-out;
+                -webkit-transition-duration: 0.25s;
+            }
+            .code {
+                font-family: courier;
+                margin: 15px 0px;
+                margin-left: 70px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="card">
+            <div id="company">
+                <p><a href="https://github.com/richmidwinter/fat-fish">Fat Fish</a></p>
+                <br/>
+                <p>A Java library for generating descriptive error messages e.g.:</p>
+                <p class="code">8 fat fish fly slowly</p>
+                <p>A simple, memorable String which shouldn't scare your users away!</p>
+                <p>To get a Fat Fish error String just call:</p>
+                <p class="code">new FatFish().get();</p>
+                <p>Or, if you want to generate a repeatable String from an error code:</p>
+                <p class="code">Long errorCode = 999L;<br />new FatFish().get(errorCode);</p>
+                <p>It's as simple as that. Fat Fish also includes Locale support.</p>
+            </div>
+        </div>
+        <footer>
+            <span><a href="http://wansdyke-house.co.uk">Wansdyke House</a></span>
+        </footer>
+    </body>
+</html>

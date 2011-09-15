@@ -1,4 +1,5 @@
 .classpath
 .project
+www-deploy.bash
 .settings/
 target/
