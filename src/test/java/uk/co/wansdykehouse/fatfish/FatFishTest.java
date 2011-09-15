@@ -32,10 +32,10 @@ public class FatFishTest extends TestCase {
 	
 	@Test
 	public void testFromId() {
-		assertEquals("21 sincere pears jump beautifully", fatFish.get(1L));
-		assertEquals("9 fashionable foxes saunter competitively", fatFish.get(2L));
-		assertEquals("30 unusual birds cook kindly", fatFish.get(3L));
-		assertEquals("22 pristine wasps race swiftly", fatFish.get(4L));
-		assertEquals("16 fat sheep chant elegantly", fatFish.get(5L));
+		assertEquals("21 quaint people buzz gleefully", fatFish.get(1L));
+		assertEquals("9 short cars moan viciously", fatFish.get(2L));
+		assertEquals("30 strong sheep work outside", fatFish.get(3L));
+		assertEquals("22 wrinkled geese listen ferociously", fatFish.get(4L));
+		assertEquals("16 cold apples yawn violently", fatFish.get(5L));
 	}
 }
